@@ -1,2 +1,73 @@
 # Superstore-Analysis
 This dataset contains sales data for a spare store giant, covering product categories, customer segments and geographical regions. our analysis aims to provide insights on target markets and optimize sales performance.
+
+### Data Sources
+The analysis is based on a “sample superstore.csv dataset” containing sales data from 2014 to 2017.
+(https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+### Tool used
+-  Excel : Data Cleaning
+-  SQL Server : Data Analysis
+-  Power BI : Data Visualization
+
+-  ### Data Cleaning/Pre-Processing
+Data cleaning and preprocessing were carried out at the intial stage to ensure the quality of data,Thus;
+- Data loading and inspection
+- Handling duplicates
+- Fixing the un-standardized date format
+- Data Cleaning and Formatting
+
+  ###  Exploratory data analysis (EDA)
+The EDA process involves understanding data, identifying patterns and detecting anomalies to inform futher analysis(like answering key questions);
+
+1. SALES TREND OVER TIME?
+2. Who are our top 10 customers?
+3. Top 10 performing categories by profits?
+4. Sales by city and states?
+5. Sales by region(ship-mode)?
+
+   ### DATA Analysis
+Data analysis was done in SQL
+
+ ~~~sql
+SALES TREND OVER TIME
+ SELECT Order_Date, Ship_Date, sales
+ from [Sample - Superstore]
+ where Order_Date BETWEEN '2014-01-01' and '2017-12-31'
+ and Ship_Date between ' 2014-01-01' and '2017-12-31'
+ order by Order_Date, Ship_Date ASC;
+-- who are our top 10 customers
+select top 10 customer_name,product_id, sum(sales) as total_purchase
+from [dbo].[Sample - Superstore]
+group by customer_name, product_id
+order by total_purchase DESC
+-- Top 10 performing categories by profits
+
+select top 10 category, sum(profit) as total_profit
+from [Sample - Superstore]
+group by Category
+order by total_profit DESC
+--sales by city and states
+
+select top 10 state,city, sum(sales) as sales_by_location
+from [Sample - Superstore]
+group by state, city
+order by sales_by_location DESC
+--sales by region(ship-mode)
+
+select ship_mode, sum(sales) as sales_by_shipmode
+from [Sample - Superstore]
+group by Ship_Mode
+order by sales_by_shipmode DESC
+~~~
+
+
+
+
+
+
+
+
+
+
+
