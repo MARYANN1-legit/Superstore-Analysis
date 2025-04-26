@@ -61,7 +61,6 @@ group by Ship_Mode
 order by sales_by_shipmode DESC
 ~~~
 
-![Screenshot 2025-04-26 083651](https://github.com/user-attachments/assets/43dd9053-20d8-44dc-8871-7ddbcc7bcae6)
 
 
 ### [Screenshot 2025-04-26 083651](https://github.com/user-attachments/assets/38487720-fc2a-4b54-805c-817f21966fbf)
