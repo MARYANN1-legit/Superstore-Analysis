@@ -61,8 +61,7 @@ group by Ship_Mode
 order by sales_by_shipmode DESC
 ~~~
 
-
-![img1](https://github.com/user-attachments/assets/92f8144a-bfff-4fc2-80c8-cb15ac00b535)
+### [img1](https://github.com/user-attachments/assets/92f8144a-bfff-4fc2-80c8-cb15ac00b535)
 
 
 
