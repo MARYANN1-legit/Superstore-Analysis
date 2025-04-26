@@ -62,7 +62,8 @@ order by sales_by_shipmode DESC
 ~~~
 
 
-![](![img1](https://github.com/user-attachments/assets/993c2192-ab08-49ae-9ce7-a3e35bcb059d)
+![img1](https://github.com/user-attachments/assets/92f8144a-bfff-4fc2-80c8-cb15ac00b535)
+
 
 
 
