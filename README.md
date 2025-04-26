@@ -106,6 +106,10 @@ Based on my  findings, here are some recommendations to improve sales;
  
 ### Limitations
 
+1. Data-driven insights may not capture qualitative factors: The analysis is based on quantitative data and may not account for qualitative factors like customer satisfaction, product quality, or brand reputation.
+
+2. Lack of competitor analysis: The analysis focuses on internal sales data, but doesn't consider competitor sales, market share, or strategies that could impact business performance.
+
 
 
 
