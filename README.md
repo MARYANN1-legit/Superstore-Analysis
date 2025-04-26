@@ -62,7 +62,48 @@ order by sales_by_shipmode DESC
 ~~~
 
 ### Results/Findings
+
+
+Sales Trend
+- Sales have increased significantly over the past four years, indicating a positive growth trend.
+
+Top-Performing Subcategories
+- The top 10 subcategories driving sales are:
+    1. Phones
+    2. Chairs
+    3. Storage
+    4. Tables
+    5. Binders
+    6. Machines
+    7. Accessories
+    8. Copiers
+    9. Bookcases
+    10. Appliances
+
+Shipping Preferences
+- The most commonly used shipping mode is Standard Class.
+
+Regional Sales Performance
+- The West region generates the most sales, followed by:
+    1. East
+    2. Central
+    3. South
+
+#### Customer Insights
+- The top customer has spent over $25,000.
+- 
 ### Recommendations
+Based on my  findings, here are some recommendations to improve sales;
+
+1. Focus on top-performing subcategories: Allocate more resources to promote and expand product lines in top categories (phones, chairs, storage, tables, etc.).
+2. Analyze low-performing subcategories: Identify areas for improvement or potential discontinuation.
+3. Develop loyalty programs: Reward top customers with exclusive offers, discounts, or early access to new products.
+4. Focus on West and East regions: Allocate more resources to these high-performing regions.
+5. Develop targeted marketing campaigns: For Central and South regions to drive growth.
+6.  Continuously monitor sales trends: Analyze sales data to identify areas for improvement.
+
+
+ 
 ### Limitations
 
 
