@@ -62,7 +62,7 @@ order by sales_by_shipmode DESC
 ~~~
 
 
-
+### [image alt](https://github.com/MARYANN1-legit/Superstore-Analysis/blob/ff6718e6e9ab6727d143d91ae5c848d4159e9d59/Screenshot%202025-04-26%20084641.png)
 
 
 
